@@ -1,0 +1,8 @@
+{
+  "name": "Cloudflare R2 chat thumbnails fix",
+  "component": true,
+  "authors": "@Lilly",
+  "about_url": "https://github.com/Lillinator/cloudflare-R2-chat-thumbnails-fix/blob/main/README.md",
+  "license_url": "https://github.com/Lillinator/cloudflare-R2-chat-thumbnails-fix/blob/main/LICENSE",
+  "theme_version": "1.0.0"
+}
