@@ -1,7 +1,6 @@
 en:
   theme_metadata:
-    description: "Cloudflare R2 Chat Thumbnail Fix"
+    description: "Patches a core bug by enforcing your S3 CDN URL on Chat images and uploads."
     settings:
-      raw_s3_bucket_url: "The incorrect domain string being used by broken chat thumbnails (check the broken thumbnail image URL)."
-      s3_cdn_url: "The correct r2 object uploads domain - same as Admin-Site-Settings S3 CDN URL or DISCOURSE_S3_CDN_URL in the app.yml file."
-
+      raw_s3_bucket_url: "The raw storage domain bypassing the CDN (e.g., your-bucket.s3.amazonaws.com). You can find this by inspecting a broken chat image."
+      s3_cdn_url: "Your actual CDN domain. This should perfectly match your site's existing 's3 cdn url' setting."
