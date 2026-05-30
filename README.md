@@ -1,4 +1,4 @@
-# Discourse S3/R2 Chat Thumbnail Fix
+# Discourse Chat S3 Thumbnail Fix
 
 A lightweight Discourse Theme Component to fix broken chat thumbnails when using Cloudflare R2 or other S3-compatible object storage.
 
