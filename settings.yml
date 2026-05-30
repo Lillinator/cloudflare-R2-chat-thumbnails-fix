@@ -1,5 +1,7 @@
 bad_cloudflare_r2_url:
   type: string
+  default: ""
 
 s3_cdn_url:
   type: string
+  default: ""
