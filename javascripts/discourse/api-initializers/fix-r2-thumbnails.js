@@ -1,9 +1,9 @@
 import { apiInitializer } from "discourse/lib/api";
 
 export default apiInitializer("1.8.0", (api) => {
-  // ⚠️ Ensure these are your exact domains!
-  const badDomain = "disco-docs-uploads.e72838402cd25cd74f272f3e35133843.eu.r2.cloudflarestorage.com";
-  const goodDomain = "uploads.disco-docs.com";
+  
+  const badDomain = settings.bad_cloudflare_r2_url;
+  const goodDomain = settings.s3_cdn_url;
 
   function fixImage(img) {
     if (img.src && img.src.includes(badDomain)) {
