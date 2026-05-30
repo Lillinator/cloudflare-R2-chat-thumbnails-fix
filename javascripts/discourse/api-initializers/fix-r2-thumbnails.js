@@ -2,11 +2,11 @@ import { apiInitializer } from "discourse/lib/api";
 
 export default apiInitializer("1.8.0", (api) => {
 
-  if (settings.bad_cloudflare_r2_url === "" || settings.s3_cdn_url === "") {
+  if (settings.raw_s3_bucket_url === "" || settings.s3_cdn_url === "") {
     return;
   }
 
-  const badDomain = settings.bad_cloudflare_r2_url;
+  const badDomain = settings.raw_s3_bucket_url;
   const goodDomain = settings.s3_cdn_url;
 
   function fixImage(img) {
