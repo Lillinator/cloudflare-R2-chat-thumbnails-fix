@@ -1,4 +1,4 @@
-bad_cloudflare_r2_url:
+raw_s3_bucket_url:
   type: string
   default: ""
 
