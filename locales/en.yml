@@ -3,5 +3,5 @@ en:
     description: "Cloudflare R2 Chat Thumbnail Fix"
     settings:
       bad_cloudflare_r2_url: "The incorrect domain string being used by broken chat thumbnails (check the broken thumbnail image URL)."
-      s3_cdn_url: "The correct domain in Admin-Site-Settings S3 CDN URL or DISCOURSE_S3_CDN_URL in the app.yml file."
+      s3_cdn_url: "The correct r2 object uploads domain - same as Admin-Site-Settings S3 CDN URL or DISCOURSE_S3_CDN_URL in the app.yml file."
 
