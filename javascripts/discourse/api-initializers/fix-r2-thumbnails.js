@@ -2,7 +2,7 @@ import { apiInitializer } from "discourse/lib/api";
 
 export default apiInitializer("1.8.0", (api) => {
 
-  if (settings.bad_cloudflare_r2_url === "" || settings.s3_cdn_url == "") {
+  if (settings.bad_cloudflare_r2_url === "" || settings.s3_cdn_url === "") {
     return;
   }
 
